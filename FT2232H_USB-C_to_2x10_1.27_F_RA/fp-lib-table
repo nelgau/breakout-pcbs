@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name ng_conn)(type KiCad)(uri ${KIPRJMOD}/../lib/nelgau/footprints/ng_conn.pretty)(options "")(descr ""))
   (lib (name ng_time)(type KiCad)(uri ${KIPRJMOD}/../lib/nelgau/footprints/ng_time.pretty)(options "")(descr ""))
+  (lib (name ng_symbol)(type KiCad)(uri ${KIPRJMOD}/../lib/nelgau/footprints/ng_symbol.pretty)(options "")(descr ""))
 )

@@ -1576,4 +1576,15 @@ Wire Wire Line
 Connection ~ 13350 5800
 Wire Wire Line
 	13350 5800 13350 4900
+$Comp
+L ng_symbol:Symbol SYM1
+U 1 1 5FF0B0EB
+P 13650 8650
+F 0 "SYM1" H 13735 8696 50  0000 L CNN
+F 1 "Nelgau-Logo" H 13735 8605 50  0000 L CNN
+F 2 "ng_symbol:Nelgau-Logo_5.2x1.7mm_SilkScreen" H 13650 8650 50  0001 C CNN
+F 3 "" H 13650 8650 50  0001 C CNN
+	1    13650 8650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
