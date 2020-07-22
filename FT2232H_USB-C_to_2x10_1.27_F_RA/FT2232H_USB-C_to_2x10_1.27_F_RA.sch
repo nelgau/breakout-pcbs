@@ -155,35 +155,35 @@ Wire Wire Line
 $Comp
 L Device:R_Pack04_Split R4
 U 1 1 5F1F46F9
-P 7500 4900
-F 0 "R4" V 7450 5050 50  0000 L CNN
-F 1 "10k" V 7450 4600 50  0000 L CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7430 4900 50  0001 C CNN
-F 3 "~" H 7500 4900 50  0001 C CNN
-F 4 "YC164-JR-0710KL" V 7500 4900 50  0001 C CNN "MPN"
-	1    7500 4900
+P 7600 4900
+F 0 "R4" V 7550 5050 50  0000 L CNN
+F 1 "10k" V 7550 4600 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7530 4900 50  0001 C CNN
+F 3 "~" H 7600 4900 50  0001 C CNN
+F 4 "YC164-JR-0710KL" V 7600 4900 50  0001 C CNN "MPN"
+	1    7600 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Pack04_Split R4
 U 3 1 5F1F46FF
-P 7300 4900
-F 0 "R4" V 7250 5050 50  0000 L CNN
-F 1 "10k" V 7250 4600 50  0000 L CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7230 4900 50  0001 C CNN
-F 3 "~" H 7300 4900 50  0001 C CNN
-	3    7300 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Pack04_Split R4
-U 2 1 5F1F4705
 P 7400 4900
 F 0 "R4" V 7350 5050 50  0000 L CNN
 F 1 "10k" V 7350 4600 50  0000 L CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7330 4900 50  0001 C CNN
 F 3 "~" H 7400 4900 50  0001 C CNN
-	2    7400 4900
+	3    7400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04_Split R4
+U 2 1 5F1F4705
+P 7500 4900
+F 0 "R4" V 7450 5050 50  0000 L CNN
+F 1 "10k" V 7450 4600 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7430 4900 50  0001 C CNN
+F 3 "~" H 7500 4900 50  0001 C CNN
+	2    7500 4900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1288,9 +1288,7 @@ F 3 "~" H 13650 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13450 3300 13250 3300
-Wire Wire Line
-	14150 3300 13950 3300
+	13450 3400 13250 3400
 Wire Wire Line
 	14150 3400 13950 3400
 Wire Wire Line
@@ -1298,87 +1296,80 @@ Wire Wire Line
 Wire Wire Line
 	14150 3600 13950 3600
 Wire Wire Line
-	14050 3700 13950 3700
+	14150 3700 13950 3700
 Wire Wire Line
-	14050 3800 13950 3800
+	14150 3800 13950 3800
 Wire Wire Line
 	14150 3900 13950 3900
 Wire Wire Line
 	14150 4000 13950 4000
 Wire Wire Line
 	14150 4100 13950 4100
-Wire Wire Line
-	14150 4200 13950 4200
-Text Label 13250 3300 2    50   ~ 0
-AD0
-Text Label 14150 3300 0    50   ~ 0
-AD1
 Text Label 13250 3400 2    50   ~ 0
-AD2
+AD0
 Text Label 14150 3400 0    50   ~ 0
-AD3
+AD1
 Text Label 13250 3500 2    50   ~ 0
-AD4
+AD2
 Text Label 14150 3500 0    50   ~ 0
-AD5
+AD3
 Text Label 13250 3600 2    50   ~ 0
-AD6
+AD4
 Text Label 14150 3600 0    50   ~ 0
+AD5
+Text Label 13250 3700 2    50   ~ 0
+AD6
+Text Label 14150 3700 0    50   ~ 0
 AD7
-Text Label 13250 3900 2    50   ~ 0
+Text Label 13250 3800 2    50   ~ 0
 AC0
-Text Label 14150 3900 0    50   ~ 0
+Text Label 14150 3800 0    50   ~ 0
 AC1
-Text Label 13250 4000 2    50   ~ 0
+Text Label 13250 3900 2    50   ~ 0
 AC2
-Text Label 14150 4000 0    50   ~ 0
+Text Label 14150 3900 0    50   ~ 0
 AC3
-Text Label 13250 4100 2    50   ~ 0
+Text Label 13250 4000 2    50   ~ 0
 AC4
-Text Label 14150 4100 0    50   ~ 0
+Text Label 14150 4000 0    50   ~ 0
 AC5
-Text Label 13250 4200 2    50   ~ 0
+Text Label 13250 4100 2    50   ~ 0
 AC6
-Text Label 14150 4200 0    50   ~ 0
+Text Label 14150 4100 0    50   ~ 0
 AC7
-Wire Wire Line
-	14050 3700 14050 3800
-Connection ~ 14050 3800
-Wire Wire Line
-	14050 3800 14050 4300
 $Comp
 L ng_power:GND #PWR0120
 U 1 1 5F84B027
-P 14050 4300
-F 0 "#PWR0120" H 14050 4050 50  0001 C CNN
-F 1 "GND" H 14053 4174 50  0000 C CNN
-F 2 "" H 13950 3950 50  0001 C CNN
-F 3 "" H 14050 4300 50  0001 C CNN
-	1    14050 4300
+P 13350 4300
+F 0 "#PWR0120" H 13350 4050 50  0001 C CNN
+F 1 "GND" H 13353 4174 50  0000 C CNN
+F 2 "" H 13250 3950 50  0001 C CNN
+F 3 "" H 13350 4300 50  0001 C CNN
+	1    13350 4300
 	1    0    0    -1  
 $EndComp
-Text GLabel 13050 3700 0    50   UnSpc ~ 0
+Text GLabel 14350 3300 2    50   UnSpc ~ 0
 USB_5V
-Text GLabel 13050 3800 0    50   UnSpc ~ 0
+Text GLabel 14350 4200 2    50   UnSpc ~ 0
 P3V3
-Wire Wire Line
-	13250 3400 13450 3400
 Wire Wire Line
 	13250 3500 13450 3500
 Wire Wire Line
 	13250 3600 13450 3600
 Wire Wire Line
-	13050 3700 13450 3700
+	13250 3700 13450 3700
 Wire Wire Line
-	13050 3800 13450 3800
+	14350 3300 13950 3300
+Wire Wire Line
+	14350 4200 13950 4200
+Wire Wire Line
+	13250 3800 13450 3800
 Wire Wire Line
 	13250 3900 13450 3900
 Wire Wire Line
 	13250 4000 13450 4000
 Wire Wire Line
 	13250 4100 13450 4100
-Wire Wire Line
-	13250 4200 13450 4200
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J3
 U 1 1 5F936E1B
@@ -1391,9 +1382,7 @@ F 3 "~" H 13650 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13450 4900 13250 4900
-Wire Wire Line
-	14150 4900 13950 4900
+	13450 5000 13250 5000
 Wire Wire Line
 	14150 5000 13950 5000
 Wire Wire Line
@@ -1401,87 +1390,80 @@ Wire Wire Line
 Wire Wire Line
 	14150 5200 13950 5200
 Wire Wire Line
-	14050 5300 13950 5300
+	14150 5300 13950 5300
 Wire Wire Line
-	14050 5400 13950 5400
+	14150 5400 13950 5400
 Wire Wire Line
 	14150 5500 13950 5500
 Wire Wire Line
 	14150 5600 13950 5600
 Wire Wire Line
 	14150 5700 13950 5700
-Wire Wire Line
-	14150 5800 13950 5800
-Text Label 13250 4900 2    50   ~ 0
-BD0
-Text Label 14150 4900 0    50   ~ 0
-BD1
 Text Label 13250 5000 2    50   ~ 0
-BD2
+BD0
 Text Label 14150 5000 0    50   ~ 0
-BD3
+BD1
 Text Label 13250 5100 2    50   ~ 0
-BD4
+BD2
 Text Label 14150 5100 0    50   ~ 0
-BD5
+BD3
 Text Label 13250 5200 2    50   ~ 0
-BD6
+BD4
 Text Label 14150 5200 0    50   ~ 0
+BD5
+Text Label 13250 5300 2    50   ~ 0
+BD6
+Text Label 14150 5300 0    50   ~ 0
 BD7
-Text Label 13250 5500 2    50   ~ 0
+Text Label 13250 5400 2    50   ~ 0
 BC0
-Text Label 14150 5500 0    50   ~ 0
+Text Label 14150 5400 0    50   ~ 0
 BC1
-Text Label 13250 5600 2    50   ~ 0
+Text Label 13250 5500 2    50   ~ 0
 BC2
-Text Label 14150 5600 0    50   ~ 0
+Text Label 14150 5500 0    50   ~ 0
 BC3
-Text Label 13250 5700 2    50   ~ 0
+Text Label 13250 5600 2    50   ~ 0
 BC4
-Text Label 14150 5700 0    50   ~ 0
+Text Label 14150 5600 0    50   ~ 0
 BC5
-Text Label 13250 5800 2    50   ~ 0
+Text Label 13250 5700 2    50   ~ 0
 BC6
-Text Label 14150 5800 0    50   ~ 0
+Text Label 14150 5700 0    50   ~ 0
 BC7
-Wire Wire Line
-	14050 5300 14050 5400
-Connection ~ 14050 5400
-Wire Wire Line
-	14050 5400 14050 5900
 $Comp
 L ng_power:GND #PWR0121
 U 1 1 5F936E43
-P 14050 5900
-F 0 "#PWR0121" H 14050 5650 50  0001 C CNN
-F 1 "GND" H 14053 5774 50  0000 C CNN
-F 2 "" H 13950 5550 50  0001 C CNN
-F 3 "" H 14050 5900 50  0001 C CNN
-	1    14050 5900
+P 13350 5900
+F 0 "#PWR0121" H 13350 5650 50  0001 C CNN
+F 1 "GND" H 13353 5774 50  0000 C CNN
+F 2 "" H 13250 5550 50  0001 C CNN
+F 3 "" H 13350 5900 50  0001 C CNN
+	1    13350 5900
 	1    0    0    -1  
 $EndComp
-Text GLabel 13050 5300 0    50   UnSpc ~ 0
+Text GLabel 14350 4900 2    50   UnSpc ~ 0
 USB_5V
-Text GLabel 13050 5400 0    50   UnSpc ~ 0
+Text GLabel 14350 5800 2    50   UnSpc ~ 0
 P3V3
-Wire Wire Line
-	13250 5000 13450 5000
 Wire Wire Line
 	13250 5100 13450 5100
 Wire Wire Line
 	13250 5200 13450 5200
 Wire Wire Line
-	13050 5300 13450 5300
+	13250 5300 13450 5300
 Wire Wire Line
-	13050 5400 13450 5400
+	14350 4900 13950 4900
+Wire Wire Line
+	14350 5800 13950 5800
+Wire Wire Line
+	13250 5400 13450 5400
 Wire Wire Line
 	13250 5500 13450 5500
 Wire Wire Line
 	13250 5600 13450 5600
 Wire Wire Line
 	13250 5700 13450 5700
-Wire Wire Line
-	13250 5800 13450 5800
 Wire Wire Line
 	3250 3650 3750 3650
 Connection ~ 3750 3650
@@ -1545,13 +1527,53 @@ NoConn ~ 7600 4750
 $Comp
 L Device:R_Pack04_Split R4
 U 4 1 5FBDF481
-P 7600 4900
-F 0 "R4" V 7550 5050 50  0000 L CNN
-F 1 "10k" V 7550 4600 50  0000 L CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7530 4900 50  0001 C CNN
-F 3 "~" H 7600 4900 50  0001 C CNN
-F 4 "YC164-JR-0710KL" V 7600 4900 50  0001 C CNN "MPN"
-	4    7600 4900
+P 7300 4900
+F 0 "R4" V 7250 5050 50  0000 L CNN
+F 1 "10k" V 7250 4600 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7230 4900 50  0001 C CNN
+F 3 "~" H 7300 4900 50  0001 C CNN
+F 4 "YC164-JR-0710KL" V 7300 4900 50  0001 C CNN "MPN"
+	4    7300 4900
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FCF15CE
+P 13650 7800
+F 0 "H1" H 13750 7846 50  0000 L CNN
+F 1 "MountingHole_M3" H 13750 7755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 13650 7800 50  0001 C CNN
+F 3 "~" H 13650 7800 50  0001 C CNN
+	1    13650 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FCF2040
+P 13650 8250
+F 0 "H2" H 13750 8296 50  0000 L CNN
+F 1 "MountingHole_M3" H 13750 8205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 13650 8250 50  0001 C CNN
+F 3 "~" H 13650 8250 50  0001 C CNN
+	1    13650 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13350 4300 13350 4200
+Wire Wire Line
+	13350 3300 13450 3300
+Wire Wire Line
+	13450 4200 13350 4200
+Connection ~ 13350 4200
+Wire Wire Line
+	13350 4200 13350 3300
+Wire Wire Line
+	13350 5900 13350 5800
+Wire Wire Line
+	13350 4900 13450 4900
+Wire Wire Line
+	13450 5800 13350 5800
+Connection ~ 13350 5800
+Wire Wire Line
+	13350 5800 13350 4900
 $EndSCHEMATC
