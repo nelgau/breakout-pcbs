@@ -1282,7 +1282,7 @@ U 1 1 5F6FB90B
 P 13650 3700
 F 0 "J2" H 13600 4200 50  0000 L CNN
 F 1 "Conn_02x10_Odd_Even" H 13700 4226 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 13650 3700 50  0001 C CNN
+F 2 "local_conn:PinSocket_2x10_P2.54mm_Horizontal" H 13650 3700 50  0001 C CNN
 F 3 "~" H 13650 3700 50  0001 C CNN
 	1    13650 3700
 	1    0    0    -1  
@@ -1376,7 +1376,7 @@ U 1 1 5F936E1B
 P 13650 5300
 F 0 "J3" H 13600 5800 50  0000 L CNN
 F 1 "Conn_02x10_Odd_Even" H 13700 5826 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 13650 5300 50  0001 C CNN
+F 2 "local_conn:PinSocket_2x10_P2.54mm_Horizontal" H 13650 5300 50  0001 C CNN
 F 3 "~" H 13650 5300 50  0001 C CNN
 	1    13650 5300
 	1    0    0    -1  
