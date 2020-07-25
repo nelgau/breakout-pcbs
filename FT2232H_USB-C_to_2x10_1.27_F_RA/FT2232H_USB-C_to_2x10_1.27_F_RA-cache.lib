@@ -219,18 +219,19 @@ X ~ 5 0 150 50 D 50 50 4 1 P
 ENDDRAW
 ENDDEF
 #
-# Mechanical_MountingHole
+# Mechanical_MountingHole_Pad
 #
-DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
-F0 "H" 0 200 50 H V C CNN
-F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- MountingHole*
+ MountingHole*Pad*
 $ENDFPLIST
 DRAW
-C 0 0 50 0 1 50 N
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -418,23 +419,20 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# ng_regulator_MIC5504-3.3YM5
+# ng_regulator_LDO_SOT-23-5
 #
-DEF ng_regulator_MIC5504-3.3YM5 U 0 20 Y Y 1 F N
-F0 "U" -300 350 50 H V L CNN
-F1 "ng_regulator_MIC5504-3.3YM5" -300 250 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23-5" 0 -400 50 H I C CNN
-F3 "" -250 250 50 H I C CNN
-$FPLIST
- SOT?23?5*
-$ENDFPLIST
+DEF ng_regulator_LDO_SOT-23-5 U 0 40 Y Y 1 F N
+F0 "U" -300 300 50 H V L CNN
+F1 "ng_regulator_LDO_SOT-23-5" -300 200 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23-5" 0 -450 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
 DRAW
-S -300 -200 300 200 0 1 10 f
-X VIN 1 -400 100 100 R 50 50 1 1 W
-X GND 2 0 -300 100 U 50 50 1 1 W
-X EN 3 -400 -100 100 R 50 50 1 1 I
-X NC 4 300 -100 100 L 50 50 1 1 N N
-X VOUT 5 400 100 100 L 50 50 1 1 w
+S -300 150 300 -250 0 1 10 f
+X IN 1 -400 50 100 R 50 50 1 1 W
+X GND 2 0 -350 100 U 50 50 1 1 W
+X EN 3 -400 -150 100 R 50 50 1 1 I
+X BP 4 400 -150 100 L 50 50 1 1 O
+X OUT 5 400 50 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
@@ -447,19 +445,6 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 C 0 0 50 0 1 20 f
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

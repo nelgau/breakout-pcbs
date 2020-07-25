@@ -6,4 +6,5 @@
   (lib (name ng_regulator)(type Legacy)(uri ${KIPRJMOD}/../lib/nelgau/symbols/ng_regulator.lib)(options "")(descr ""))
   (lib (name ng_power)(type Legacy)(uri ${KIPRJMOD}/../lib/nelgau/symbols/ng_power.lib)(options "")(descr ""))
   (lib (name ng_symbol)(type Legacy)(uri ${KIPRJMOD}/../lib/nelgau/symbols/ng_symbol.lib)(options "")(descr ""))
+  (lib (name ng_pmic)(type Legacy)(uri ${KIPRJMOD}/../lib/nelgau/symbols/ng_pmic.lib)(options "")(descr ""))
 )
