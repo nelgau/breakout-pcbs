@@ -142,7 +142,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 5250 7500 5050
 $Comp
-L Device:R_Pack04_Split R4
+L FT2232H_USB-C_to_2x10_1.27_F_RA-rescue:R_Pack04_Split-Device R4
 U 1 1 5F1F46F9
 P 7600 4900
 F 0 "R4" V 7550 5050 50  0000 L CNN
@@ -154,7 +154,7 @@ F 4 "YC164-JR-0710KL" V 7600 4900 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Pack04_Split R4
+L FT2232H_USB-C_to_2x10_1.27_F_RA-rescue:R_Pack04_Split-Device R4
 U 3 1 5F1F46FF
 P 7400 4900
 F 0 "R4" V 7350 5050 50  0000 L CNN
@@ -165,7 +165,7 @@ F 3 "~" H 7400 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Pack04_Split R4
+L FT2232H_USB-C_to_2x10_1.27_F_RA-rescue:R_Pack04_Split-Device R4
 U 2 1 5F1F4705
 P 7500 4900
 F 0 "R4" V 7450 5050 50  0000 L CNN
@@ -614,7 +614,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 4800 3800 4800
 $Comp
-L Power_Protection:USBLC6-2SC6 U?
+L FT2232H_USB-C_to_2x10_1.27_F_RA-rescue:USBLC6-2SC6-Power_Protection U?
 U 1 1 5F184C87
 P 3800 5400
 AR Path="/5F302051/5F184C87" Ref="U?"  Part="1" 
@@ -1364,7 +1364,7 @@ USB_EEDO
 NoConn ~ 7600 5050
 NoConn ~ 7600 4750
 $Comp
-L Device:R_Pack04_Split R4
+L FT2232H_USB-C_to_2x10_1.27_F_RA-rescue:R_Pack04_Split-Device R4
 U 4 1 5FBDF481
 P 7300 4900
 F 0 "R4" V 7250 5050 50  0000 L CNN

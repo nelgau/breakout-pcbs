@@ -7,4 +7,5 @@
   (lib (name ng_power)(type Legacy)(uri ${KIPRJMOD}/../lib/nelgau/symbols/ng_power.lib)(options "")(descr ""))
   (lib (name ng_symbol)(type Legacy)(uri ${KIPRJMOD}/../lib/nelgau/symbols/ng_symbol.lib)(options "")(descr ""))
   (lib (name ng_pmic)(type Legacy)(uri ${KIPRJMOD}/../lib/nelgau/symbols/ng_pmic.lib)(options "")(descr ""))
+  (lib (name FT2232H_USB-C_to_2x10_1.27_F_RA-rescue)(type Legacy)(uri ${KIPRJMOD}/FT2232H_USB-C_to_2x10_1.27_F_RA-rescue.lib)(options "")(descr ""))
 )
